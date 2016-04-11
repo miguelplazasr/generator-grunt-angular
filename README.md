@@ -1,0 +1,2 @@
+#generator-grunt-angular
+

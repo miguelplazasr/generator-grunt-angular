@@ -1,0 +1,28 @@
+<md-list>
+    <md-subheader class="md-no-sticky">{{title}}</md-subheader>
+    <md-list-item class="md-2-line" ng-repeat="category in categories" class="noright"
+                  ng-href="/#/category/show/{{category.id}}"
+                  >
+
+
+        <div class="md-list-item-text compact">
+            <h3>{{category.name}}</h3>
+
+            <p>{{category.description}}</p>
+        </div>
+
+
+
+        <ng-md-icon icon="delete" class="md-secondary" ng-click="showDelete(category)" aria-label="Delete Item" class="md-secondary md-hue-3" ></ng-md-icon>
+        <ng-md-icon icon="edit" class="md-secondary" ng-click="editCategory(category, $event)" aria-label="Edit Item" class="md-secondary md-hue-3" ></ng-md-icon>
+
+
+
+    </md-list-item>
+</md-list>
+
+<md-button class="md-fab md-fab-bottom-right" aria-label="Add" ng-click="showAdd($event)">
+    <ng-md-icon icon="add"></ng-md-icon>
+</md-button>
+
+{{status}}

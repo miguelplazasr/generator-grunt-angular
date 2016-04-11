@@ -1,0 +1,35 @@
+{
+  "name": "veedorfront",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-express": "^1.4.1",
+    "grunt-ng-annotate": "^2.0.1",
+    "grunt-serve": "^0.1.6"
+  },
+  "description": "VeedorFront project",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "angular-material-data-table": "^0.9.14",
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MiguelPlazasR",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelplazasr/veedorFront.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miguelplazasr/veedorFront/issues"
+  },
+  "homepage": "https://github.com/miguelplazasr/veedorFront#readme"
+}

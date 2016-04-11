@@ -1,0 +1,12 @@
+<md-list>
+    <md-subheader>{{category.name}}</md-subheader>
+
+    <md-list-item ng-repeat="issue in issueCat">
+        <div class="md-list-item-text compact">
+            <h3>{{ issue.category.name }}</h3>
+            <p>{{ issue.comment }}</p>
+
+        </div>
+    </md-list-item>
+
+</md-list>

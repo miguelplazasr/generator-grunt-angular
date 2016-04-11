@@ -1,0 +1,30 @@
+{
+  "name": "veedorFront",
+  "authors": [
+    "miguelplazasr <miguelplazasr@gmail.com>"
+  ],
+  "description": "Veedor forntend application",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/lib",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-material": "^1.1"
+  },
+  "dependencies": {
+    "angular-material-icons": "^0.6.0",
+    "angular-resource": "^1.5.2",
+    "angular-route": "^1.5.2",
+    "angular-material-data-table": "^0.9.14"
+  }
+}

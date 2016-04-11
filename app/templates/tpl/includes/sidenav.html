@@ -1,0 +1,38 @@
+<md-list ng-controller="MainCtrl">
+    {{titulo}}
+    <md-item ng-repeat="item in menu">
+        <a>
+            <md-item-content md-ink-ripple layout="row" layout-aling="start center">
+                <div class="inset">
+                    <ng-md-icon icon="{{item.icon}}"></ng-md-icon>
+                </div>
+                <div class="inset">{{item.title}}</div>
+            </md-item-content>
+        </a>
+    </md-item>
+</md-list>
+
+<md-list>
+    <md-item>
+        <a href="/#/category">
+            <md-item-content md-ink-ripple layout="row" layout-aling="start center">
+                <div class="inset">
+                    <ng-md-icon icon="item.icon}}"></ng-md-icon>
+                </div>
+                <div class="inset">Categories</div>
+            </md-item-content>
+        </a>
+    </md-item>
+
+    <md-item>
+        <a href="/#/issue">
+            <md-item-content md-ink-ripple layout="row" layout-aling="start center">
+                <div class="inset">
+                    <ng-md-icon icon="item.icon}}"></ng-md-icon>
+                </div>
+                <div class="inset">Issues</div>
+            </md-item-content>
+        </a>
+    </md-item>
+</md-list>
+			

@@ -1,0 +1,28 @@
+{
+  "name": "generator-grunt-angular",
+  "version": "0.1.0",
+  "description": "Create a skeleton for angularJs project with Grunt",
+  "license": "MIT",
+  "homepage": "https://github.com/miguelplazasr/generator-grunt-angular",
+  "author": {
+    "name": "miguelplazasr",
+    "email": "miguelplazasr@gmail.com",
+    "url": "http://www.pulsar-it.net/"
+  },
+  "files": [
+    "app"
+  ],
+  "main": "app/index.js",
+  "keywords": [
+    "angularjs",
+    "grunt",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.22.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2",
+    "fs-extra": "^0.22.1",
+    "js-yaml": "^3.5.0"
+  }
+}
